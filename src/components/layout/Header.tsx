@@ -42,16 +42,6 @@ const Header = () => {
               О нас
             </Link>
             <Link
-              to="/projects"
-              className={`text-sm font-medium transition-colors ${
-                isActive("/projects")
-                  ? "text-emerald-600"
-                  : "text-gray-700 hover:text-emerald-600"
-              }`}
-            >
-              Проекты
-            </Link>
-            <Link
               to="/contact"
               className={`text-sm font-medium transition-colors ${
                 isActive("/contact")
